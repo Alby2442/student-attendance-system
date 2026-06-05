@@ -19,30 +19,6 @@ A web-based attendance management system developed using Java, JSP, Servlets, JD
 - HTML
 - CSS
 
-## Screenshots
-### Landing Page
-![Landing](Screenshot 2026-06-05 145948.png)
-
-### Login Page
-![Login](Screenshot 2026-06-05 150046.png)
-
-### Registration Page
-![Register](Screenshot 2026-06-05 150028.png)
-
-### H0me Page
-![Home](Screenshot 2026-06-05 150124.png)
-
-### Profile Page
-![Profile](Screenshot 2026-06-05 150218.png)
-
-### Attendance Marking Page
-![Attendance Marking](Screenshot 2026-06-05 150241.png)
-
-### Attendace Page
-![Attendance](Screenshot 2026-06-05 150311.png)
-### Attendance View Page
-![Attendance View](Screenshot 2026-06-05 150415.png)
-
 ## How to Run
 
 1. Import project into Eclipse.
