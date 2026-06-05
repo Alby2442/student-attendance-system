@@ -1,0 +1,340 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* BODY */
+
+body{
+    background:#eef2ff;
+}
+
+/* MAIN CONTAINER */
+
+.container{
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:30px;
+}
+
+/* CARD */
+
+.card{
+    width:450px;
+    background:white;
+    padding:35px;
+    border-radius:20px;
+    box-shadow:0px 5px 15px rgba(0,0,0,0.1);
+}
+
+/* TITLE */
+
+.title{
+    text-align:center;
+    color:#1d4ed8;
+    margin-bottom:15px;
+    font-size:35px;
+    font-weight:bold;
+}
+
+/* SUBTITLE */
+
+.subtitle{
+    text-align:center;
+    color:#666;
+    margin-bottom:25px;
+    font-size:16px;
+}
+
+/* INPUT BOX */
+
+.input-box{
+    width:100%;
+    padding:14px;
+    margin-bottom:18px;
+    border:1px solid #ccc;
+    border-radius:10px;
+    font-size:15px;
+    transition:0.3s;
+}
+
+/* INPUT FOCUS */
+
+.input-box:focus{
+    border-color:#2563eb;
+    outline:none;
+    box-shadow:0px 0px 8px rgba(37,99,235,0.3);
+}
+
+/* BUTTON */
+
+.btn{
+    width:100%;
+    padding:14px;
+    border:none;
+    border-radius:10px;
+    background:#2563eb;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    transition:0.3s;
+    font-weight:bold;
+}
+
+/* BUTTON HOVER */
+
+.btn:hover{
+    background:#1e40af;
+}
+
+/* BOTTOM TEXT */
+
+.bottom-text{
+    text-align:center;
+    margin-top:20px;
+    font-size:15px;
+}
+
+/* LINK */
+
+.bottom-text a{
+    text-decoration:none;
+    color:#2563eb;
+    font-weight:bold;
+}
+
+/* NAVBAR */
+
+.navbar{
+    width:100%;
+    background:#1e3a8a;
+    padding:18px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    box-shadow:0px 3px 10px rgba(0,0,0,0.1);
+}
+
+/* LOGO */
+
+.logo{
+    color:white;
+    font-size:28px;
+    font-weight:bold;
+}
+
+/* NAV LINKS */
+
+.nav-links a{
+    color:white;
+    text-decoration:none;
+    margin-left:25px;
+    font-size:17px;
+    transition:0.3s;
+}
+
+/* NAV LINK HOVER */
+
+.nav-links a:hover{
+    color:#93c5fd;
+}
+
+/* HOME CARD */
+
+.home-card{
+    width:750px;
+    margin:80px auto;
+    background:white;
+    padding:60px;
+    border-radius:25px;
+    text-align:center;
+    box-shadow:0px 5px 15px rgba(0,0,0,0.1);
+}
+
+/* WELCOME TEXT */
+
+.welcome-text{
+    font-size:55px;
+    color:#2563eb;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+/* STUDENT NAME */
+
+.student-name{
+    color:#16a34a;
+}
+
+/* HOME DESCRIPTION */
+
+.home-description{
+    color:#666;
+    font-size:18px;
+    margin-bottom:35px;
+}
+
+/* PROFILE BOX */
+
+.profile-box{
+    width:650px;
+    margin:50px auto;
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0px 5px 15px rgba(0,0,0,0.1);
+}
+
+/* PROFILE IMAGE */
+
+.profile-img{
+    width:130px;
+    height:130px;
+    display:block;
+    margin:0 auto 20px;
+}
+
+/* PROFILE NAME */
+
+.profile-name{
+    text-align:center;
+    font-size:30px;
+    color:#2563eb;
+    font-weight:bold;
+    margin-bottom:30px;
+}
+
+/* PROFILE ITEM */
+
+.profile-item{
+    margin-bottom:18px;
+    font-size:20px;
+    color:#333;
+    padding:12px;
+    background:#f8fafc;
+    border-radius:10px;
+}
+
+/* TABLE BOX */
+
+.table-box{
+    width:95%;
+    margin:40px auto;
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0px 5px 15px rgba(0,0,0,0.1);
+}
+
+/* TABLE */
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+/* TABLE HEADER */
+
+table th{
+    background:#2563eb;
+    color:white;
+    padding:15px;
+    font-size:18px;
+}
+
+/* TABLE DATA */
+
+table td{
+    padding:15px;
+    border-bottom:1px solid #ddd;
+    text-align:center;
+    font-size:16px;
+}
+
+/* TABLE ROW HOVER */
+
+table tr:hover{
+    background:#f1f5f9;
+}
+
+/* PROGRESS BAR BACKGROUND */
+
+.bar-bg{
+    width:100%;
+    height:24px;
+    background:#dbeafe;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+/* PROGRESS BAR */
+
+.bar{
+    height:24px;
+    background:#22c55e;
+    border-radius:10px;
+    text-align:center;
+    color:white;
+    font-size:14px;
+    line-height:24px;
+    font-weight:bold;
+}
+
+/* SUCCESS MESSAGE */
+
+.success{
+    color:green;
+    text-align:center;
+    font-size:30px;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+/* ERROR MESSAGE */
+
+.error{
+    color:red;
+    text-align:center;
+    font-size:28px;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+    .card,
+    .home-card,
+    .profile-box{
+        width:95%;
+        padding:25px;
+    }
+
+    .navbar{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .nav-links{
+        margin-top:15px;
+    }
+
+    .nav-links a{
+        display:block;
+        margin:10px 0;
+    }
+
+    .welcome-text{
+        font-size:40px;
+    }
+
+    .table-box{
+        overflow-x:auto;
+    }
+}
